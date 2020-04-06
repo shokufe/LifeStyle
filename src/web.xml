@@ -1,0 +1,56 @@
+<servlet>
+    <servlet-name>servlet_authentification</servlet-name>
+    <servlet-class><chemin class="authentification"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_authentification</servlet-name>
+    <url-pattern>/chemin/acceuil/login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_Events</servlet-name>
+    <servlet-class><chemin class="Events"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_Events</servlet-name>
+    <url-pattern>/chemin/acceuil/Events</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_form</servlet-name>
+    <servlet-class><chemin class="Form"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_form</servlet-name>
+    <url-pattern>/chemin/profile/form</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_bmi</servlet-name>
+    <servlet-class><chemin class="Bmi"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_bmi</servlet-name>
+    <url-pattern>/chemin/bmi</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_OutdoorPractice</servlet-name>
+    <servlet-class><chemin class="OutdoorPractice"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_OutdoorPractice</servlet-name>
+    <url-pattern>/chemin/profile/OutdoorPractice</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_JoinGroups</servlet-name>
+    <servlet-class><chemin class="JoinGroups"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_JoinGroups</servlet-name>
+    <url-pattern>/chemin/profile/joingroups</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>servlet_LifeStyle</servlet-name>
+    <servlet-class><chemin class="LifeStyle"></chemin></servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>servlet_LifeStyle</servlet-name>
+    <url-pattern>/chemin/profile/lifestyle</url-pattern>
+</servlet-mapping>
